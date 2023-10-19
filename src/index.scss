@@ -1,0 +1,41 @@
+@import "./_vatiables.sass";
+
+html, body, span, ul, ol, li, a, span, p {
+  margin: 0;
+  padding: 0;
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $blue_background;
+  overflow-y: clip;
+}
+
+@keyframes cat_run {
+  0% {
+    background-position: -26px -46px;
+  }
+
+  40% {
+    background-position: -26px -46px;
+  }
+
+
+}
+
+
+// background-color: #D9E9F3
+.running_cat {
+  position: absolute;
+  width: 180px;
+  height: 160px;
+  border: red solid 1px;
+  background-image: url("./images/running\ cat.svg");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: -206px -46px;
+  animation: cat_run 3s infinite 0s;
+}
