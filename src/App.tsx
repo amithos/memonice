@@ -1,93 +1,16 @@
 import React from 'react';
-import useCustomScroller from "./utils/customScroller/index";
-import { HorizontalSection } from './components/HorizontalSection/HorizontalSection';
+import logo from './memonice_3.jpeg';
+import './App.css';
 
 function App() {
-
-  useCustomScroller();
-
   return (
     <div className="App">
-      <HorizontalSection className='ex'>
-        <p>what do you want</p>
-      </HorizontalSection>
-
-      {/* <div className="running_cat"></div> */}
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur nisi tempore delectus. Quos fuga neque ex magnam, fugit quidem praesentium suscipit quia adipisci exercitationem tempora sunt officiis iusto beatae.</p>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          {"MEMONICE".split("").map((letter) => <span className='titler'>{letter}</span>)}
+        </p>
+      </header>
     </div>
   );
 }
