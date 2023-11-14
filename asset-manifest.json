@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/memonice/static/css/main.1484404e.css",
-    "main.js": "/memonice/static/js/main.61772d48.js",
+    "main.js": "/memonice/static/js/main.b8b7f525.js",
     "static/media/memonice_3.jpeg": "/memonice/static/media/memonice_3.87307804acd7656e6732.jpeg",
     "index.html": "/memonice/index.html",
     "main.1484404e.css.map": "/memonice/static/css/main.1484404e.css.map",
-    "main.61772d48.js.map": "/memonice/static/js/main.61772d48.js.map"
+    "main.b8b7f525.js.map": "/memonice/static/js/main.b8b7f525.js.map"
   },
   "entrypoints": [
     "static/css/main.1484404e.css",
-    "static/js/main.61772d48.js"
+    "static/js/main.b8b7f525.js"
   ]
 }
